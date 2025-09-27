@@ -1,10 +1,12 @@
 {
-  "homepage": "https://github.com/morningistar/Quiz-buddy-v2",
+  "homepage": "https://morningistar.github.io/Quiz-buddy-v2",
   "name": "quiz-buddy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -12,6 +14,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.2.10",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.395.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
